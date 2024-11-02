@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacje o Jabłkach</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #2980b9;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .content {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 15px 0;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+        h2 {
+            color: #e74c3c;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #34495e;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wszystko o Jabłkach</h1>
+    </header>
+
+    <nav>
+        <a href="#rodzaje">Rodzaje Jabłek</a>
+        <a href="#wlasciwosci">Właściwości Zdrowotne</a>
+        <a href="#przepisy">Przepisy</a>
+        <a href="#historia">Historia Jabłek</a>
+    </nav>
+
+    <div class="container">
+        <div class="content" id="rodzaje">
+            <h2>Rodzaje Jabłek</h2>
+            <p>Istnieje wiele rodzajów jabłek, takich jak:</p>
+            <ul>
+                <li>Jabłko Granny Smith - znane ze swojego kwaśnego smaku.</li>
+                <li>Jabłko Golden Delicious - słodkie i soczyste.</li>
+                <li>Jabłko Red Delicious - intensywnie czerwone i słodkie.</li>
+                <li>Jabłko Gala - chrupiące i słodkie.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="wlasciwosci">
+            <h2>Właściwości Zdrowotne</h2>
+            <p>Jabłka są bogate w błonnik, witaminę C i antyoksydanty. Oto niektóre z ich właściwości zdrowotnych:</p>
+            <ul>
+                <li>Wspierają układ odpornościowy.</li>
+                <li>Pomagają w utrzymaniu zdrowej wagi.</li>
+                <li>Obniżają ryzyko chorób serca.</li>
+                <li>Poprawiają trawienie.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="przepisy">
+            <h2>Przepisy z Jabłkami</h2>
+            <p>Oto kilka pomysłów na dania z jabłkami:</p>
+            <ul>
+                <li>Szarlotka - klasyczny deser z jabłkami i cynamonem.</li>
+                <li>Sałatka z jabłkami i orzechami - zdrowa przekąska.</li>
+                <li>Jabłka pieczone z cynamonem - prosty i pyszny deser.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="historia">
+            <h2>Historia Jabłek</h2>
+            <p>Jabłka są jednym z najstarszych owoców znanych ludzkości. Ich historia sięga tysiące lat. Uważane były za symbol wiedzy i nieśmiertelności w wielu kulturach.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Wszystkie prawa zastrzeżone</p>
+    </footer>
+
+</body>
+</html>
